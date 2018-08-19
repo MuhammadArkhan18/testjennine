@@ -124,7 +124,7 @@ dispatcher.add_handler(grup_handler)
 PORT = int(os.environ.get('PORT', '5000'))
 updater.start_webhook(listen="0.0.0.0", port=PORT, url_path=tokenbot)
 #
-updater.bot.set_webhook("https://serene-plateau-27373.herokuapp.com/" + tokenbot)
+updater.bot.set_webhook("https://agile-sands-57113.herokuapp.com/" + tokenbot)
 #--------------------------------
 updater.idle() #untuk menjalankan heroku webhook
 
